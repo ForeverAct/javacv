@@ -295,3 +295,8 @@ Once installed, simply call the usual `mvn install` command for JavaCPP, its Pre
 Project lead: Samuel Audet [samuel.audet `at` gmail.com](mailto:samuel.audet at gmail.com)  
 Developer site: https://github.com/bytedeco/javacv  
 Discussion group: http://groups.google.com/group/javacv
+
+------
+JavaCV 提供了在计算机视觉领域的封装库，包括：OpenCV、ARToolKitPlus、libdc1394 2.x 、PGR FlyCapture和FFmpeg。此外，该工具可以很容易地使用Java平台的功能。
+
+JavaCV 还带有硬件加速的全屏幕图像显示（CanvasFrame），易于在多个内核中执行并行代码（并行），用户友好的几何和色彩的相机和投影仪校准（GeometricCalibrator，ProCamGeometricCalibrator，ProCamColorCalibrator ），检测和特征点（ObjectFinder），一类是实现投影，摄像系统（直接图像对齐设置匹配主要GNImageAligner，ProjectiveTransformer，ProjectiveGainBiasTransformer，ProCamTransformer 和ReflectanceInitializer），以及在 JavaCV 类杂项功能。
